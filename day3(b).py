@@ -6,10 +6,16 @@ Created on Tue Aug  9 18:53:56 2022
 """
 
 '''
-list splicing
+list slicing
 '''
 l1=[1,2,3,4,5,6]
+print(l1[::-1])
+print(l1[::7])
+print(l1[0:len(l1):2])
+print(l1[2:-1])
+print(l1[2:-3])
 
+print(l1[1:2])
 print(l1[:1])
 print(l1[:2])
 print(l1[1:5])

@@ -9,8 +9,8 @@ l1=['a',1,3.5,3+2j]
 print(l1)
 print(l1[0])
 print(l1[3])
-
-
+l1.remove(0)
+print(l1)
 l1.append('tharun')
 print(l1)
 l1.append(1234)
@@ -20,7 +20,7 @@ l1.pop(0)
 l1.insert(0,'hi')
 l1.insert(1,'this is')
 l1.remove(1234)
-l1.remove('this is')
+l1.remove(0)
 
 l2=[1,2,3,4,'chandra']
 '''l1.extend(l2)'''

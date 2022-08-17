@@ -21,6 +21,8 @@ s1={'a','b','c'}
 '''s.add(s1)'''
 s1={1,2,3,4,5}
 s2={2,3,5,6,7,8}
+print(11 in s1)
+
 print(s1.intersection(s2))
 print(s1.union(s2))
 print(s1.difference(s2))
@@ -34,4 +36,6 @@ s2= list(s1)
 print(s2)
 j= list(set(s))
 print(j)
-
+a=[1,2,3,4]
+b=[5,6,7,8]
+print(union(a,b))
