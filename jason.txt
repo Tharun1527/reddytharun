@@ -1,0 +1,35 @@
+{
+
+"name":"tharun",
+"age":"24",
+"city":"warangal",
+"cell":"244553",
+"address":{
+     "dist":"bhpl",
+     "colony":"csdfv"
+    }
+}{"customer": "chandra", "adrs": "chennai", "product": "mobile", "price": 20000, "buyed on": "2022-08-27 14:36:26.331834"}{"customer": "chandra", "adrs": "chennai", "product": "mobile", "price": 20000, "buyed on": "2022-08-27 14:36:26.331834"}{"customer": "chandra", "adrs": "chennai", "product": "mobile", "price": 20000, "buyed on": "2022-08-27 14:40:15.486890"}{"customer": "chandra", "adrs": "chennai", "product": "mobile", "price": 20000, "buyed on": "2022-08-27 14:40:25.338338"}{
+    "customer": "chandra",
+    "adrs": "chennai",
+    "product": "mobile",
+    "price": 20000,
+    "buyed on": "2022-08-27 14:41:56.738352"
+}{
+    "customer"==="chandra";
+    "adrs"==="chennai";
+    "product"==="mobile";
+    "price"===20000;
+    "buyed on"==="2022-08-27 14:48:00.848165"
+}{
+    "customer"==="chandra"*
+    "adrs"==="chennai"*
+    "product"==="mobile"*
+    "price"===20000*
+    "buyed on"==="2022-08-27 14:49:05.817569"
+}{
+    "customer"$$"chandra"*
+    "adrs"$$"chennai"*
+    "product"$$"mobile"*
+    "price"$$20000*
+    "buyed on"$$"2022-08-27 14:49:39.405633"
+}
